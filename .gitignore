@@ -1,0 +1,10 @@
+build/
+devel/
+install/
+logs/
+*.bag
+*.pcd
+*.so
+*.a
+*.o
+.vscode/ipch
