@@ -1,0 +1,39 @@
+---
+Language:         Cpp
+# 基于GoogleStyle
+BasedOnStyle:     Google
+# 访问说明符（public、private）的偏移
+AccessModifierOffset: -4
+# 大括号是否换行，当BreakBeforeBraces=Custom时有效
+BraceWrapping:
+  # 类后面
+  AfterClass:      true
+  # 控制语句后面
+  AfterControlStatement: true
+  # 枚举后面
+  AfterEnum:       true
+  # 函数后面
+  AfterFunction:   true
+  # 命名空间后面
+  AfterNamespace:  true
+  # objc后面（忽略，与cpp无关）
+  AfterObjCDeclaration: true
+  # 结构体后面
+  AfterStruct:     true
+  # 联合体后面
+  AfterUnion:      true
+  # catch前面
+  BeforeCatch:     true
+  # else前面
+  BeforeElse:      true
+  # 是否缩进大括号
+  IndentBraces:    false
+BreakBeforeBraces: Custom
+# 保留在块开始处的空行
+KeepEmptyLinesAtTheStartOfBlocks: true
+# 缩进长度
+IndentWidth:     4
+# 每行字符的限制，0表示没有限制（默认80）
+ColumnLimit:     100
+# C++标准
+Standard:         Cpp11
